@@ -20,8 +20,6 @@ body{
 
 
 
-
-
 .container{
   
   height: 100%;  
@@ -99,7 +97,6 @@ section.botoes-links{
     display: flex;
     flex-direction: column;
     gap:20px;
-    color: black;
     margin-bottom: 50px;
     
     
@@ -113,7 +110,7 @@ section.botoes-links{
 
 .p{
 
-
+font-size: 15px;
 color:  rgb(239, 207, 225) ;  
 font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-weight: bold;
@@ -138,8 +135,6 @@ a.link button{
     
 
 }
-
-
 
 
 
@@ -172,17 +167,23 @@ footer a.cabecalho{
     display: inline-block;
     font-size: 25px;
     line-height: 60px;
-    border-radius: 50%;
+    border-radius: 100%;
     margin: 5px;
     margin-top: 1px;
     transition: .2s;
     background: #fff;
     background: linear-gradient(to right, rgb(161, 78, 123) , #232323);
+    display: flex;
+    text-align: center;
+    align-items: centr;
+    justify-content: center;
+    height: 100%;  
+    margin: auto;
+  
    
 
 
 }
-
 
 
 
