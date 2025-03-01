@@ -34,6 +34,7 @@ body{
  
 
 }
+
 .font{
 color:#000000;
 font-size: 18px;
@@ -70,11 +71,11 @@ header{
 
 header img{
     max-width: 220px;
-    margin-top:2px ;
-    margin-bottom: 20px;
-    border: 1px solid #0a0a0a;
     border-radius:100%;
-    box-shadow: 0 0 2px rgb(234, 137, 218);
+   
+    
+  
+   
     
     
     
@@ -183,6 +184,7 @@ footer a.cabecalho{
 
 
 }
+
 
 
 
