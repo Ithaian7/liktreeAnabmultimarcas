@@ -1,8 +1,13 @@
+
+   
+
+
 *{
     margin:0 ;
     padding: 0;
     box-sizing: border-box;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -37,7 +42,8 @@ body{
 }
 
 .font{
-color: #dd4aafdb;
+color:#000000;
+font-size: 18px;
     
    
     
@@ -49,11 +55,13 @@ a{
 
 }
 .degrade{
-    background: linear-gradient(to right, rgb(243, 153, 207) , #ffdef4);
+    background: linear-gradient(to right, rgb(234, 137, 218) , #62415a);
     transition: .2s;
-    padding: 15px;
+    padding: 25px;
     transition: .2s;
-    border-radius: 8px;
+    border-radius: 100px;
+    box-shadow: 0 0 8px #ea81c2bb;
+   
     
    
     
@@ -68,10 +76,12 @@ header{
 }
 
 header img{
-    max-width: 150px;
+    max-width: 250px;
+    margin-top:2px ;
     margin-bottom: 20px;
-    border: none;
+    border: 1px solid #0a0a0a;
     border-radius:100%;
+    box-shadow: 0 0 5px #ea81c2bb;
     
     
     
@@ -81,9 +91,11 @@ header img{
 header h1{
     font-size: 25px;
     font-weight: bold;
+    font-weight: bold;
     margin-bottom: 10px;
-    color: rgb(243, 153, 207);
+    color:  rgb(161, 78, 123) ;
     font-weight: 300;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 section.botoes-links{
@@ -93,6 +105,8 @@ section.botoes-links{
     flex-direction: column;
     gap:20px;
     color: black;
+    margin-bottom: 50px;
+    
     
     
     
@@ -103,18 +117,23 @@ section.botoes-links{
 }
 
 p{
-color: rgb(243, 153, 207);  
+
+
+color: rgb(161, 78, 123) ;  
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
 }
+
 
 a.link button{
     
     width: 100%;
     padding: 10px 20px;
     border: none;
-    font-size: 15px;
+    font-size: 25px;
     cursor: pointer;
     transition: .2s;
-    color: #fff;
+    color: #000000;
     text-decoration: none;
 
    
@@ -151,9 +170,11 @@ footer a.cabecalho{
     margin-top: 1px;
     transition: .2s;
     background: #fff;
-    background: linear-gradient(to right, rgb(243, 153, 207) , #9b3f72);
+    background: linear-gradient(to right, rgb(161, 78, 123) , #232323);
    
 
 
 }
+
+
 
