@@ -1,3 +1,4 @@
+
 *{
     margin:0 ;
     padding: 0;
@@ -13,7 +14,12 @@ body{
     
     
     
+    
+
+
 }
+
+
 
 
 
@@ -138,13 +144,11 @@ a.link button{
 
 
 
-
 button.degrade button:hover, section button.degrade:hover{
     transform: scale(1.05);
     box-shadow: #2c2a2a;
    
 }
-
 
 
 a.link button:hover, footer a.cabecalho:hover{
@@ -179,6 +183,7 @@ footer a.cabecalho{
 
 
 }
+
 
 
 
